@@ -39,4 +39,9 @@ public class KataTest {
 	public void test6() {
 		assertEquals("6 [2,3]", kat.generate(6));
 	}
+	
+	@Test
+	public void test7() {
+		assertEquals("7 [7]", kat.generate(7));
+	}
 }
