@@ -19,5 +19,10 @@ public class KataTest {
 	public void test2() {
 		assertEquals("2 [2]", kat.generate(2));
 	}
+	
+	@Test
+	public void test3() {
+		assertEquals("3 [3]", kat.generate(3));
+	}
 
 }
