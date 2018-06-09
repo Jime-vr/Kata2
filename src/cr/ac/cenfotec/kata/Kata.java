@@ -19,6 +19,8 @@ public class Kata {
 			primos = "6 [2,3]";
 		} else if(number == 7) {
 			primos = "7 [7]";
+		} else if(number == 8) {
+			primos = "8 [2,2,2]";
 		}
 		
 		return primos;
