@@ -11,8 +11,13 @@ public class KataTest {
 	Kata kat = new Kata();
 	
 	@Test
-	public void test() {
+	public void test1() {
 		assertEquals("[]", kat.generate(1));
+	}
+	
+	@Test 
+	public void test2() {
+		assertEquals("2 [2]", kat.generate(2));
 	}
 
 }
